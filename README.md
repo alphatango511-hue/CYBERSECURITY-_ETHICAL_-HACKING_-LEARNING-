@@ -35,7 +35,7 @@ This repository documents my hands-on cybersecurity and ethical hacking learning
 
 ### Tools Installed
 
-![Kali Linux tools](IMG-20260914-WA0026.)jpg)
+![Kali Linux tools](IMG-20260914-WA0026.jpg)
 - Nmap
 - Wireshark
 - Burp Suite
@@ -46,7 +46,7 @@ This repository documents my hands-on cybersecurity and ethical hacking learning
 
 ### Network Configuration
 
-![network ip](IMG-20260914-WA0025).jpg)
+![network ip](IMG-20260914-WA0025.jpg)
 
 | Machine | Example IP |
 |---------|------------|
