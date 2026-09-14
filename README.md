@@ -9,7 +9,7 @@ This repository documents my hands-on cybersecurity and ethical hacking learning
 ---
 
 ## Lab Objectives
-# IMG-20260912-WA0012(1).jpg
+
 - Build an isolated cybersecurity practice environment
 - Configure virtual machines for security testing
 - Install and configure Kali Linux
@@ -50,7 +50,7 @@ Example private laboratory network:
 
 | Machine | Example IP |
 |---------|------------|
-| Kali Linux | 10.0.0.2 |
+| Kali Linux | 10.0.0.6 (Current Lab IP) |
 | Target VM | 10.0.0.10 |
 | Test VM | 10.0.0.11 |
 
@@ -68,6 +68,10 @@ Oracle VirtualBox was installed and configured as the virtualization platform fo
 
 Kali Linux was installed inside a virtual machine and configured for security testing and cybersecurity practice.
 
+![Kali Linux Tools Overview](./IMG-20260912-WA0012(1).jpg)
+
+![Kali Linux Login Screen](./IMG-20260914-WA0024.jpg)
+
 ### Step 3: Configure Network Connection
 
 The virtual machine network adapter was configured using an isolated laboratory network.
@@ -78,181 +82,3 @@ Network configuration was verified using standard Linux networking commands:
 
 ```bash
 ip addr
-```
-
-The assigned IP address and network interface were checked to confirm that the virtual machine was connected correctly.
-
-### Step 5: Test Connectivity
-
-Connectivity between authorized laboratory machines was tested:
-
-```bash
-ping 10.0.0.10
-```
-
-The test was used to verify communication between machines inside the controlled lab environment.
-
----
-
-## Virtual Machine Snapshots
-
-Snapshots were created after major configuration stages:
-
-- ✅ Fresh OS installation
-- ✅ Network configuration completed
-- ✅ Kali Linux configured
-- ✅ Target machine configured
-- ✅ Pre-testing state
-
-Snapshots allow the laboratory environment to be restored to a known working state after experiments.
-
----
-
-## Reconnaissance & Enumeration
-
-Authorized laboratory systems can be examined using tools such as Nmap:
-
-```bash
-nmap -sV 10.0.0.10
-```
-
-**Purpose:** Understand network discovery, service enumeration, and basic security assessment techniques.
-
----
-
-## Web Security
-
-The laboratory can also be used to study common web application security concepts:
-
-- Authentication security
-- Input validation
-- SQL Injection concepts
-- Cross-Site Scripting (XSS)
-- Access control
-- Security headers
-
-> All testing is performed only against intentionally vulnerable applications or systems for which authorization has been provided.
-
----
-
-## Week 2 PM1 — Practical Work Completed
-
-### Tasks Accomplished
-
-| Task | Status |
-|------|--------|
-| VirtualBox installation | ✅ Complete |
-| Kali Linux VM setup | ✅ Complete |
-| Network adapter configuration | ✅ Complete |
-| IP address verification | ✅ Complete |
-| Connectivity testing | ✅ Complete |
-| VM snapshots created | ✅ Complete |
-| Initial reconnaissance practice | ✅ Complete |
-
-### Commands Used
-
-```bash
-# Check network interface and IP
-ip addr
-
-# Test connectivity to target
-ping 10.0.0.10
-
-# Basic service scan
-nmap -sV 10.0.0.10
-```
-
-### Key Learnings
-
-1. **Virtualization:** Understanding how to set up and manage virtual machines
-2. **Networking:** Configuring NAT and Host-Only networks for isolation
-3. **Linux Basics:** Using terminal commands for network verification
-4. **Security Tools:** Introduction to Nmap for reconnaissance
-5. **Documentation:** Recording findings and configurations
-
----
-
-## Project Structure
-
-```text
-cybersecurity_ethical_hacking_learning/
-│
-├── README.md
-├── week2-pm1/
-│   ├── screenshots/
-│   │   ├── virtualbox_setup.png
-│   │   ├── kali_installation.png
-│   │   ├── network_config.png
-│   │   └── connectivity_test.png
-│   ├── commands.md
-│   └── notes.md
-│
-└── resources/
-    └── references.md
-```
-
----
-
-## Learning Outcomes
-
-Through this laboratory I aim to develop practical skills in:
-
-- Linux
-- Networking
-- Cybersecurity
-- Ethical Hacking
-- Vulnerability Assessment
-- Web Security
-- Network Security
-- Security Tools
-- Technical Documentation
-
----
-
-## Git Commands Used
-
-```bash
-# Initialize repository
-git init
-
-# Add files
-git add .
-
-# Commit changes
-git commit -m "Week 2 PM1 - Kali Linux setup and network configuration"
-
-# Push to remote
-git push origin main
-```
-
----
-
-## Disclaimer
-
-This repository is intended for **educational and authorized cybersecurity testing only**.
-
-All security testing must be performed against systems, applications, networks, CTFs, or laboratories where **explicit permission** has been provided.
-
-I do not support unauthorized access, disruption, data theft, or illegal activity.
-
----
-
-## Author
-
-**Bishamakhan**
-
-Cybersecurity Enthusiast | Interested in Cybersecurity, Ethical Hacking, Networking and Security Research
-
----
-
-## References
-
-- [OWASP Web Security Resources](https://owasp.org/)
-- [Kali Linux Documentation](https://www.kali.org/docs/)
-- [Nmap Documentation](https://nmap.org/book/)
-- [Wireshark Documentation](https://www.wireshark.org/docs/)
-- [VirtualBox Documentation](https://www.virtualbox.org/wiki/Documentation)
-
----
-
-*Last Updated: Week 2 PM1*
