@@ -46,7 +46,7 @@ This repository documents my hands-on cybersecurity and ethical hacking learning
 
 ### Network Configuration
 
-Example private laboratory network:
+![Example private laboratory network](IMG-20260914-WA0025).jpg
 
 | Machine | Example IP |
 |---------|------------|
