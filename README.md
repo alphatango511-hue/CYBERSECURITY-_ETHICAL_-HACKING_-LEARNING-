@@ -9,7 +9,7 @@ This repository documents my hands-on cybersecurity and ethical hacking learning
 ---
 
 ## Lab Objectives
-
+# IMG-20260912-WA0012(1).jpg
 - Build an isolated cybersecurity practice environment
 - Configure virtual machines for security testing
 - Install and configure Kali Linux
