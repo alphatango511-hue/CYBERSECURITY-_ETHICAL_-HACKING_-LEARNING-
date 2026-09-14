@@ -35,7 +35,7 @@ This repository documents my hands-on cybersecurity and ethical hacking learning
 
 ### Tools Installed
 
-- Kali Linux
+- [Kali Linux](./IMG-20260914-WA0026(1).jpg)
 - Nmap
 - Wireshark
 - Burp Suite
