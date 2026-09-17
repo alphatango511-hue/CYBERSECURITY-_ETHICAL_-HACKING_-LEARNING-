@@ -1,3 +1,8 @@
+I am truly sorry. You are completely right. I have been giving you fragmented instructions, and doing this on a phone with those file names is making it ten times harder than it needs to be.
+
+Let's do a Complete Pass right now. I am going to give you the entire README exactly as it should be, with your exact file names already inserted (using the %20 trick so GitHub accepts them).
+
+You do not need to rename any files. You 
 # Web Application Reconnaissance & Fingerprinting Report: networkwalks.com
 
 ![Environment](https://img.shields.io/badge/Environment-Kali_Linux-blue)
@@ -22,11 +27,11 @@
 - **Requests Used:** 2
 - **HTTP Patterns:** 403, 404, 405, 500, 502
 
-![Technical Analysis](Screenshot 2026-09-17 124310.png)
+**Technical Analysis:** 
 WAFW00F identified that `networkwalks.com` is protected by a **ModSecurity** Web Application Firewall. ModSecurity is a widely trusted, open-source WAF engine. The tool successfully fingerprinted the WAF using only two requests. The HTTP patterns observed (such as 403 Forbidden and 405 Not Allowed) confirm that the WAF is actively filtering and rejecting suspicious traffic before it reaches the backend server.
 
 **📸 SCREENSHOT 1: WAFW00F OUTPUT**
-![WAFW00F Output](Screenshot 2026-09-17 121639.png)
+![WAFW00F Output](Screenshot%202026-09-17%20121639.png)
 
 ---
 
@@ -47,8 +52,8 @@ WAFW00F identified that `networkwalks.com` is protected by a **ModSecurity** Web
 **Technical Analysis:** 
 The target enforces HTTPS by responding with a **301 Moved Permanently** redirect. The web server identifies itself as **Apache**. The presence of `X-Redirect-By: WordPress - Really Simple Security` and `X-nginx-cache: WordPress` reveals that the site is running on WordPress and is sitting behind an Nginx reverse proxy or cache layer. The `Permissions-Policy` header restricts certain browser features and integrates Google reCAPTCHA.
 
-**📸 SCREENSHOT 2: CURLOUTPUT**
-![curl output](Screenshot 2026-09-17 124310.png)
+**📸 SCREENSHOT 2: CURL OUTPUT**
+![cURL Output](Screenshot%202026-09-17%20124018.png)
 
 ---
 
@@ -70,7 +75,7 @@ The target enforces HTTPS by responding with a **301 Moved Permanently** redirec
 WhatWeb provided a comprehensive technology stack profile. The target is built on **WordPress**, utilizing **Bootstrap** and **jQuery** for frontend rendering. The IP address `192.232.216.135` resolves to a server located in the **United States**. The title "Networkwalks Academy" indicates a standard corporate or educational WordPress deployment.
 
 **📸 SCREENSHOT 3: WHATWEB OUTPUT**
-*[ Paste your WhatWeb screenshot here ]*
+![WhatWeb Output](Screenshot%202026-09-17%20124211.png)
 
 ---
 
@@ -92,7 +97,7 @@ WhatWeb provided a comprehensive technology stack profile. The target is built o
 The domain `networkwalks.com` was registered on **November 6, 2019**, through **GoDaddy**. It is secured with standard ICANN transfer and update prohibitions, which prevents unauthorized domain hijacking. The authoritative name servers point to **HostGator**, confirming the hosting provider identified during the WhatWeb scan.
 
 **📸 SCREENSHOT 4: WHOIS OUTPUT**
-*[ Paste your WHOIS screenshot here ]*
+![WHOIS Output](Screenshot%202026-09-17%20124310.png)
 
 ---
 
@@ -105,3 +110,10 @@ Based on the tools executed in this exercise, the following infrastructure profi
 3. **CMS & Stack:** The application is built on **WordPress**, utilizing **Bootstrap** and **jQuery**.
 4. **Network:** The site resolves to IP `192.232.216.135` (US) and enforces HTTPS via a 301 redirect.
 5. **Domain:** Registered via **GoDaddy** since 2019, with secure lock statuses in place.
+```
+
+💡 One small tip for the future:
+
+The reason GitHub couldn't display your images before is because of the spaces in the filenames (Screenshot 2026-09-17...). In the code above, I replaced every space with %20, which is the computer code for a space. That is the only reason it will work now.
+
+Copy the block above, paste it, and hit Commit. You are done. I am sorry again for making it so hard.
