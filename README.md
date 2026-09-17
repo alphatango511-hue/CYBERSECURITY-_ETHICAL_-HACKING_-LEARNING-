@@ -12,21 +12,13 @@
 
 ## ⚠️ Disclaimer & Legal Notice
 
-This report documents passive reconnaissance and fingerprinting techniques performed in a controlled environment for educational and portfolio purposes. Testing should only be performed on systems for which you have explicit permission. This report does not claim that any vulnerabilities exist, nor does it attempt to bypass any security controls.
+This report documents passive reconnaissance and fingerprinting techniques performed in a controlled environment for educational and portfolio purposes. Testing was conducted with the assumption of authorized permission. This report does not claim that any vulnerabilities exist, nor does it attempt to bypass any security controls.
 
 ---
 
 ## 1. WAF Fingerprinting (WAFW00F)
 
-**Command used:**
-```bash
-wafw00f networkwalks.com
-
-![Kali Tools](<Screenshot 2026-09-17 121639.png>)
-
----
-
-## 2. WAF Fingerprinting (WAFW00F)
+**Tool used:** WAFW00F v2.2.2  
 **Command used:**
 ```bash
 wafw00f networkwalks.com
