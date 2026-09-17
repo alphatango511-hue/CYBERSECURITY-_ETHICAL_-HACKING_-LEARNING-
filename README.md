@@ -10,7 +10,13 @@
 
 ---
 
-## ⚠️ Disclaimer & Legal Notice
+## ![⚠️ Disclaimer & Legal Notice](Screenshot 2026-09-17 121639
+4 minutes ago
+Screenshot 2026-09-17 123911 - Copy.png
+4 minutes ago
+Screenshot 2026-09-17 124018 - Copy.png
+4 minutes ago
+Screenshot 2026-09-17 124211 - Copy.png)
 
 This report documents passive reconnaissance and fingerprinting techniques performed in a controlled environment for educational and portfolio purposes. 
 
