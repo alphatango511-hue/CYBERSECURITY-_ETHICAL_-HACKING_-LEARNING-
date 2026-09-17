@@ -50,3 +50,23 @@ The testing was performed using standard Kali Linux tools. The following screens
 **Command:**
 ```bash
 wafw00f networkwalks.com
+# Web Application Reconnaissance Report: networkwalks.com
+
+**Target:** `networkwalks.com`
+**Environment:** Kali Linux
+**Date:** September 17, 2026
+
+---
+
+## 1. Environment Setup
+*Add a screenshot showing your Kali Linux Tools page here.*
+
+**📸 [ PASTE SCREENSHOT 1 HERE: Kali Tools Page ]**
+`![Kali Tools](paste-image-link-or-file-path-here.png)`
+
+---
+
+## 2. WAF Fingerprinting (WAFW00F)
+**Command used:**
+```bash
+wafw00f networkwalks.com
