@@ -82,3 +82,11 @@ Network configuration was verified using standard Linux networking commands:
 
 ```bash
 ip addr
+
+Then:
+
+```bash
+cd reports/waf-fingerprinting
+git add WAF_Fingerprinting_Report.docx screenshot.png
+git commit -m "Add WAF fingerprinting report for networkwalks.com"
+git push origin main   # or your branch
