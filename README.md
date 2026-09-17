@@ -12,7 +12,7 @@
 
 ## ⚠️ Disclaimer & Legal Notice
 
-This report documents passive reconnaissance and fingerprinting techniques performed in a controlled environment for educational and portfolio purposes. Testing was conducted with the assumption of authorized permission. This report does not claim that any vulnerabilities exist, nor does it attempt to bypass any security controls.
+This report documents passive reconnaissance and fingerprinting techniques performed in a controlled environment for educational and portfolio purposes. The testing was conducted with the strict assumption of authorized permission on the target domain. This report does not claim that any vulnerabilities exist, nor does it attempt to bypass any security controls, firewall restrictions, or authentication mechanisms. All findings are based strictly on publicly observable characteristics returned by standard Kali Linux tools. 
 
 ---
 
