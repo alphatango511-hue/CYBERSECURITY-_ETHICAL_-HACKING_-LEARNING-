@@ -25,7 +25,8 @@
 ![Technical Analysis](Screenshot 2026-09-17 124310.png)
 WAFW00F identified that `networkwalks.com` is protected by a **ModSecurity** Web Application Firewall. ModSecurity is a widely trusted, open-source WAF engine. The tool successfully fingerprinted the WAF using only two requests. The HTTP patterns observed (such as 403 Forbidden and 405 Not Allowed) confirm that the WAF is actively filtering and rejecting suspicious traffic before it reaches the backend server.
 
-**📸 SCREENSHOT 1: ![WAFW00F OUTPUT](Screenshot )
+**📸 SCREENSHOT 1: WAFW00F OUTPUT**
+![WAFW00F Output](Screenshot 2026-09-17 121639.png)
 
 ---
 
