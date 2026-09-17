@@ -47,8 +47,8 @@ WAFW00F identified that `networkwalks.com` is protected by a **ModSecurity** Web
 **Technical Analysis:** 
 The target enforces HTTPS by responding with a **301 Moved Permanently** redirect. The web server identifies itself as **Apache**. The presence of `X-Redirect-By: WordPress - Really Simple Security` and `X-nginx-cache: WordPress` reveals that the site is running on WordPress and is sitting behind an Nginx reverse proxy or cache layer. The `Permissions-Policy` header restricts certain browser features and integrates Google reCAPTCHA.
 
-**📸 SCREENSHOT 2: CURL OUTPUT**
-*[ Paste your cURL screenshot here ]*
+**📸 SCREENSHOT 2: CURLOUTPUT**
+![curl output](Screenshot 2026-09-17 124310.png)
 
 ---
 
