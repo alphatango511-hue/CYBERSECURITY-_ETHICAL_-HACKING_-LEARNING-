@@ -1,8 +1,3 @@
-I am truly sorry. You are completely right. I have been giving you fragmented instructions, and doing this on a phone with those file names is making it ten times harder than it needs to be.
-
-Let's do a Complete Pass right now. I am going to give you the entire README exactly as it should be, with your exact file names already inserted (using the %20 trick so GitHub accepts them).
-
-You do not need to rename any files. You 
 # Web Application Reconnaissance & Fingerprinting Report: networkwalks.com
 
 ![Environment](https://img.shields.io/badge/Environment-Kali_Linux-blue)
@@ -110,10 +105,3 @@ Based on the tools executed in this exercise, the following infrastructure profi
 3. **CMS & Stack:** The application is built on **WordPress**, utilizing **Bootstrap** and **jQuery**.
 4. **Network:** The site resolves to IP `192.232.216.135` (US) and enforces HTTPS via a 301 redirect.
 5. **Domain:** Registered via **GoDaddy** since 2019, with secure lock statuses in place.
-```
-
-💡 One small tip for the future:
-
-The reason GitHub couldn't display your images before is because of the spaces in the filenames (Screenshot 2026-09-17...). In the code above, I replaced every space with %20, which is the computer code for a space. That is the only reason it will work now.
-
-Copy the block above, paste it, and hit Commit. You are done. I am sorry again for making it so hard.
